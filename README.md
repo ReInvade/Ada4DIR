@@ -1,6 +1,6 @@
 
 # Ada4DIR (IF 2025)
-### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S156625352500003X) | 🖼️[**PDF**](/figs/main.png)
+### 📖[**Paper**](https://www.sciencedirect.com/science/article/pii/S156625352500003X) | 🖼️[**PDF**](/figs/mains_1.png)
 
 PyTorch codes for "[Ada4DIR: An adaptive model-driven all-in-one image restoration network for remote sensing images](https://www.sciencedirect.com/science/article/abs/pii/S1566253524000551)", **Information Fusion (IF)**, 2025.
 
@@ -11,8 +11,9 @@ PyTorch codes for "[Ada4DIR: An adaptive model-driven all-in-one image restorati
 ## Abstract
 > Remote sensing images offer the opportunity to observe the Earth’s surface at multiple scales and from various angles. However, during acquisition, factors like blur, noise, haze, and low light can degrade the quality of optical remote sensing images. Deep learning-based image restoration methods are currently the most advanced approach for enhancing the usability of degraded remote sensing data. However, these methods are usually tailored to specific degradation types, which limits their effectiveness when faced with real-world degraded remote sensing data that may involve multiple, type-unknown degradation factors. In this paper, we model and derive solutions for four different types of remote sensing image degradation. With the integration of the novel prompt-injection-fusion block, the multi-level degradation information extraction capability of the multi-degradation-transformer block is further enhanced. Moreover, the model-driven prompt block in the 4D-fusion-transformer block enables adaptive recognition of different degradation types in remote sensing images and improves the physical interpretability of the restoration process. Finally, experimental results on three remote sensing image datasets and real-world multi-degradation image datasets demonstrate the advantages of the proposed network. 
 ## Network  
- ![image](/figs/main.png)
- 
+ ![image](/figs/mains_1.png)
+ ![image](/figs/MDTBn4DTB.png)
+ ![image](/figs/4D.png)
 
 
 ## 🎁 Dataset
